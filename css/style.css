@@ -1,0 +1,123 @@
+body {
+    text-align: center;
+    background-color: #226666;
+}
+h1{
+    color: white;
+}
+.header{
+    text-shadow: 3px 2px #AA8439;
+}
+form{
+    color: white;
+}
+::placeholder {
+    color: white;
+    opacity: 1; 
+}
+p{
+    color: white;   
+}
+.result{
+    font-size: 25px;
+}
+/*general button/input styling*/
+input, button {
+    width: 85%;
+    padding: 20px 20px;
+    margin:5px;
+}
+/*text input styling*/
+input[type = text]{
+    border: none;
+    margin-top: 15px;
+    margin-bottom: 10px;
+    border-bottom: 4px solid #AA8439;
+    background-color: #226666;
+    color: white;
+}
+#decimals-input{
+    width: 10%;
+    text-align: center;
+    font-size: 25px;
+}
+/*reset button styling*/
+button[type = reset]{
+    background-color: #AA8439;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button[type = reset]:hover {
+    background-color: #AA7A39;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*operator styling*/
+select[name = operator]{
+    width: 85%;
+    background-color: #AA8439;
+    color: white;
+    margin: 10px;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+select[name = operator]:hover {
+    width: 85%;
+    background-color: #AA7A39;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/*submit button styling*/
+button[type = submit]{
+    background-color: #AA8439;
+    color: white;
+    border-style: solid;
+    border-color: white;
+    box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+}
+button[type = submit]:hover {
+    background-color: #AA7A39;
+    color: white;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+/* slider/slider-thumb styling */
+#decimals-slider{
+    -webkit-appearance: none;
+    width: 85%;
+    height: 0px;
+    background: white;
+    outline: none;
+}
+
+#decimals-slider::-webkit-slider-thumb {
+    -webkit-appearance: none;
+    appearance: none;
+    width: 25px;
+    height: 25px;
+    background: #AA7A39;
+    cursor: pointer;
+}
+/*general calculator*/
+.container{
+
+    margin: 0 auto;
+    border-style:solid;
+    border-color: white;
+    width: 600px;
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+}
+
+.bottom-part ul{
+    list-style: none;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    padding: 0px;
+}
+#second-input:disabled{
+    
+}
